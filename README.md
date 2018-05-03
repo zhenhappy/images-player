@@ -4,6 +4,10 @@
 
 [http://www.zhangxinxu.com/wordpress/2018/05/image-sequence-html5-video-play/](http://www.zhangxinxu.com/wordpress/2018/05/image-sequence-html5-video-play/)
 
+## Demo
+
+[https://zhenhappy.github.io/images-player/test/](https://zhenhappy.github.io/images-player/test/)
+
 ## Install
 
 ```
