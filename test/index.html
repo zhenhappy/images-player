@@ -14,7 +14,7 @@
   <script src="../dist/index.js"></script>
   <script>
     var list = Array.apply(null, {length: 47}).map(Function.call, Number).map(function (item, index) {
-      return '//cdn.zhangxinxu.com/image/blog/201805/thumbs/' + (index + 1) + '.jpg'
+      return 'http://cdn.zhangxinxu.com/image/blog/201805/thumbs/' + (index + 1) + '.jpg'
     })
     var imagesPlayer = new ImagesPlayer('#img', list, {
       auto: true,
