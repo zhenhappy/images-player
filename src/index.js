@@ -57,6 +57,7 @@ class ImagesPlayer {
     } else {
       this.options && typeof this.options.onProgress === 'function' && this.options.onProgress(100, this.store[this.index], this.index)
       this.stop()
+      if (this.options.loop) this.play()
     }
   }
 
@@ -84,7 +85,6 @@ class ImagesPlayer {
     this.pl.replaceChild(this.store[0], this.store[this.index])
     this.index = 0
     this.options && typeof this.options.onStop === 'function' && this.options.onStop()
-    if (this.options.loop) this.play()
   }
 }
 module.exports = ImagesPlayer
